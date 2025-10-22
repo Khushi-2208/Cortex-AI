@@ -103,7 +103,7 @@ Visit [http://localhost:3000](http://localhost:3000) to see your app! 🚀
 ## 📁 Project Structure
 
 
-cortex-ai/
+📦 cortex-ai/
 ├── app/
 │   ├── page.tsx                 # Landing page
 │   ├── chat/
@@ -126,27 +126,32 @@ cortex-ai/
 │   └── api/
 │       ├── chat/
 │       │   └── route.ts         # Chat API endpoint
-│       ├
-│       ├──├── login/
-│       │  │   └── route.ts     # Login API
-│       │  ├── register/
-│       │  │   └── route.ts     # Registration API
-│       │  └── logout/
+│       ├── auth/
+│       │   ├── login/
+│       │   │   └── route.ts     # Login API
+│       │   ├── register/
+│       │   │   └── route.ts     # Registration API
+│       │   └── logout/
 │       │       └── route.ts     # Logout API
+│
 ├── middleware.ts                # Route protection middleware
+│
 ├── src/
 │   ├── scripts/
-│   │   └── loadDB.ts           # Database seeding script
+│   │   └── loadDB.ts            # Database seeding script
 │   ├── lib/
-│   │   ├── auth.ts             # JWT utilities
-│   │   └── utils.ts            # Helper functions
-│   └── data/                   # Sports data files
+│   │   ├── auth.ts              # JWT utilities
+│   │   └── utils.ts             # Helper functions
+│   └── data/                    # Sports data files
+│
 ├── public/
-│   └── assets/                 # Images and static files
-├── .env.local                  # Environment variables
-├── components.json             # shadcn/ui config
+│   └── assets/                  # Images and static files
+│
+├── .env.local                   # Environment variables
+├── components.json              # shadcn/ui config
 ├── package.json
-└── tailwind.config.ts
+├── tailwind.config.ts
+└── tsconfig.json
 
 
 ---
