@@ -16,10 +16,6 @@ interface LogoutDialogProps {
 }
 
 export function LogoutDialog({ isOpen, onClose, onConfirm }: LogoutDialogProps) {
-
-   onConfirm = () => {
-    
-  }
   
   return (
     <AlertDialog open={isOpen} onOpenChange={onClose}>
