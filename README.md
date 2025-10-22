@@ -71,14 +71,14 @@ env
 GEMINI_API_KEY=your_gemini_api_key_here
 
 # DataStax Astra DB
-ASTRA_DB_APPLICATION_TOKEN=your_astra_token_here
-ASTRA_DB_API_ENDPOINT=https://your-database-id-region.apps.astra.datastax.com
-ASTRA_DB_KEYSPACE=your_keyspace_name
-ASTRA_DB_COLLECTION=your_collection_name
+- ASTRA_DB_APPLICATION_TOKEN=your_astra_token_here
+- ASTRA_DB_API_ENDPOINT=https://your-database-id-region.apps.astra.datastax.com
+- ASTRA_DB_KEYSPACE=your_keyspace_name
+- ASTRA_DB_COLLECTION=your_collection_name
 
 # JWT Authentication
-ACCESS_TOKEN_SECRET=your_secure_jwt_secret_key_here
-NEXTAUTH_URL=http://localhost:3000
+- ACCESS_TOKEN_SECRET=your_secure_jwt_secret_key_here
+- NEXTAUTH_URL=http://localhost:3000
 
 
 ### 4. Prepare Your Data
