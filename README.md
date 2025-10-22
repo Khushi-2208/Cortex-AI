@@ -4,7 +4,8 @@
 
 Cortex-AI is an advanced AI chatbot that provides instant, accurate, and up-to-date insights on Cricket, Badminton, and Chess. Built with Next.js 14, Google Gemini AI, and DataStax Astra DB for vector search capabilities.
 
-![Cortex-AI Banner](https://img.shields.io/badge/Cortex--AI-Sports%20Intelligence-blue?style=for-the-badge)
+![Cortex-AI Banner](https://github.com/Khushi-2208/Cortex-AI/blob/main/src/assets/Screenshot%202025-10-22%20111418.png?raw=true)
+![Cortex-AI Banner](https://github.com/Khushi-2208/Cortex-AI/blob/main/src/assets/Screenshot%202025-10-22%20111335.png?raw=true)
 
 ---
 
