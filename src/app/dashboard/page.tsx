@@ -1,8 +1,6 @@
 "use client";
 
 import React, { FormEvent, useState, useRef, useEffect } from "react";
-import Image from "next/image";
-import AppLogo from "@/assets/AppLogo.png";
 import Bubble from "@/components/Bubble";
 import LoadingBubble from "@/components/LoadingBubble";
 import PromptSuggestionRow from "@/components/promptSuggestions";

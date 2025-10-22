@@ -1,6 +1,7 @@
 import mongoose, { model, Schema, Model } from "mongoose";
 import jwt from "jsonwebtoken"
 import bcrypt from "bcrypt"
+import { isNull } from "util";
 
 export interface UserInput {
     name: string;
@@ -48,7 +49,7 @@ userSchema.pre("save", async function (this:UserDocument,  next) {
 
 userSchema.methods.isPasswordCorrect = async function (password:string): Promise<boolean> {
     const user = this as UserDocument;
-    return await bcrypt.compare(password, user.password).catch((e) => false)
+    return await bcrypt.compare(password, user.password).catch(() => false)
 }
 userSchema.methods.generateRefreshToken = function ():string {
     return jwt.sign({
